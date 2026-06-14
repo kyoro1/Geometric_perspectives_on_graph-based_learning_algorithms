@@ -13,7 +13,7 @@ The ORC-related components build upon [GraphRicciCurvature](https://github.com/s
 
 ---
 
-# Reproductibility on the Paper
+# Reproductibility for the dissertation
 ## Setup
 
 Please set up `venv` setup as follows:
@@ -26,7 +26,7 @@ python -m pip install -r ./requirements.txt
 ```
 
 ## Implementation
-These scripts focus on **community-detection strategies** motivated by curvatures. Each script corrsponds to the figures on the paper.
+These scripts focus on **community-detection strategies** motivated by curvatures. Each script corrsponds to figures on the paper.
 
 ## For SBM on `Figure 1(a), (d)`
 ### SRC & ORC algorithms

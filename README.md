@@ -1,7 +1,7 @@
 # Geometric Perspectives on Graph-based Learning Algorithms
 
 This repository contains supplementary materials for the PhD thesis titled
-"Geometric perspectives on graph-based learning algorithms".
+"Geometric Perspectives on Graph-based Learning Algorithms".
 
 ## Summary
 
@@ -33,3 +33,8 @@ The code is organized by dissertation topic.
   This includes ARR computation, ARR-stopped continuous relaxations, comparison with the original discrete t-SNE update, KL-divergence trajectories, and momentum-sweep experiments.
 - For Chapter 4 community-detection experiments, see `SobolevRicciCurvature/community_detection/README.md`.
 - For Chapter 4 MANL / edge-pruning experiments, see `SobolevRicciCurvature/manl/README.md`.
+
+## Citation
+
+If you use this repository, please cite the corresponding dissertation or the related papers listed above.
+A formal citation will be added after the dissertation is published.
