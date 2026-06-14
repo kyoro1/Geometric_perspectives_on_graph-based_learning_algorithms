@@ -16,6 +16,20 @@ source .venv/bin/activate
 pip3 install -r ./requirements.txt
 ```
 
+## Additional experiments for the dissertation
+
+This directory contains scripts used for additional experiments in Chapter 3 and Appendix A.
+
+| Script | Purpose |
+|---|---|
+| `compute_arr_recompute_mnist.py` | Computes ARR trajectories for MNIST digits used in the stopping-time experiment. |
+| `compute_embedding_stage_gd_mm_nag_h400_only.py` | Compares ARR-stopped continuous relaxations with discrete t-SNE after the common embedding stage. |
+| `plot_embedding_stage_gd_mm_nag_h400_only.py` | Generates the embedding comparison figures. |
+| `compute_kl_divergence_mm.py` | Computes KL-divergence trajectories for the comparison experiments. |
+| `plot_kl_divergence_h400_only.py` | Generates the KL-divergence trajectory figures. |
+| `compute_discrete_mm_momentum_sweep.py` | Sweeps the EE-stage momentum parameter in the original discrete t-SNE update. |
+| `plot_discrete_mm_momentum_sweep.py` | Generates the corresponding embedding and KL-divergence plots. |
+
 
 ## Calculate ARR(=Average Residual Ratio)
 

@@ -1,7 +1,7 @@
 # Geometric Perspectives on Graph-based Learning Algorithms
 
 This repository contains supplementary materials for the PhD thesis titled
-"Geometric perspective on graph-based learning algorithm".
+"Geometric perspectives on graph-based learning algorithms".
 
 ## Summary
 
@@ -14,3 +14,22 @@ This repository contains supplementary materials for the PhD thesis titled
     - Implementation and experiment scripts are organized under the [SobolevRicciCurvature](./SobolevRicciCurvature). For application-oriented tasks, please check the two main artifacts:
         - [SobolevRicciCurvature/community_detection](./SobolevRicciCurvature/community_detection)
         - [SobolevRicciCurvature/manl](./SobolevRicciCurvature/manl)
+
+
+## Repository structure
+
+| Directory | Description |
+|---|---|
+| `Dynamics_of_the_accelerated_t-SNE/` | Code and notebooks for the accelerated t-SNE experiments, including GD/MM/NAG comparisons, ARR computation, and additional experiments for the dissertation. |
+| `Dynamics_of_the_accelerated_t-SNE/experiments/` | Scripts for ARR-stopped continuous relaxations, comparison with discrete t-SNE, KL-divergence trajectories, and momentum sweep experiments. |
+| `SobolevRicciCurvature/community_detection/` | Community-detection experiments using SRC/ORC, including SBM, LFR, real graph datasets, ablation studies, and cycle-controlled ORC--SRC discrepancy experiments. |
+| `SobolevRicciCurvature/manl/` | MANL / edge-pruning experiments using ORC and SRC variants. |
+
+## Reproducing dissertation experiments
+
+The code is organized by dissertation topic.
+
+- For Chapter 3, see `Dynamics_of_the_accelerated_t-SNE/experiments/README_tsne.md`.
+  This includes ARR computation, ARR-stopped continuous relaxations, comparison with the original discrete t-SNE update, KL-divergence trajectories, and momentum-sweep experiments.
+- For Chapter 4 community-detection experiments, see `SobolevRicciCurvature/community_detection/README.md`.
+- For Chapter 4 MANL / edge-pruning experiments, see `SobolevRicciCurvature/manl/README.md`.

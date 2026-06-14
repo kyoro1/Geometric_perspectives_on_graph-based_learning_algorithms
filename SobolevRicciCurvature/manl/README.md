@@ -23,6 +23,8 @@ pip3 install -r ./requirements.txt
 
 ## Notebooks
 
+These notebooks correspond to the MANL / edge-pruning experiments discussed in Chapter 4 of the dissertation.
+
 ---
 
 ### Experiments with Edge-Pruning
