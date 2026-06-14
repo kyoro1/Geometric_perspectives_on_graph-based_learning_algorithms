@@ -1,0 +1,11 @@
+numpy
+networkx
+scipy
+matplotlib
+scikit-learn
+networkit
+POT
+community
+python-louvain
+pandas
+igraph
