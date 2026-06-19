@@ -79,6 +79,13 @@ nohup python -u experiments/exp_lfr.py \
   --out ./results/lfr_orc_src.csv > logs/lfr_src_orc_$(date +%Y%m%d_%H%M%S).log 2>&1 &
 ```
 
+### (optional) Process time for LFR dataset
+
+```sh
+python experiments/summary_lfr_process_time.py
+```
+
+
 ### iGraph
 
 ```sh
